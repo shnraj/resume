@@ -1,0 +1,15 @@
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #353; }
+  body resume {
+    height: 3508px;
+    width: 2480px; }
+
+/*# sourceMappingURL=resume.css.map */
