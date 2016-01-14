@@ -1,20 +1,61 @@
 html,
 body,
 ul,
-ol {
+ol,
+p,
+h1,
+h2 {
     margin: 0;
     padding: 0;
 }
 
-$font-stack: Helvetica, sans-serif;
-$primary-color: #353;
+$font-stack: 'Gudea', Helvetica, sans-serif;
+$background-color: #dbdad7;
 
 body {
-  font: 100% $font-stack;
-  color: $primary-color;
+    font: 10px $font-stack;
+    background-color: $background-color;
 
-  resume {
-      height: 3508px;
-      width: 2480px;
-  }
+    .box {
+        background-color: #fff;
+        -webkit-box-shadow: 1px 1px 10px 1px rgba(82,82,82,1);
+        -moz-box-shadow: 1px 1px 10px 1px rgba(82,82,82,1);
+        box-shadow: 1px 1px 10px 1px rgba(82,82,82,1);
+    }
+
+    .resume {
+        @extend .box;
+
+        height: 842px;
+        margin: 20px auto;
+        padding: 30px;
+        width: 595px;
+
+        .header {
+            padding-bottom: 10px;
+            text-align: center;
+
+            &__name {
+                font-size: 120%;
+                font-weight: 700;
+            }
+
+            &__phone,
+            &__website,
+            &__email {
+                display: inline-block;
+            }
+        }
+
+        .resume-block {
+            padding: 5px 0;
+
+            &__heading {
+                border-bottom: 1px solid #000;
+                font-size: 110%;
+                margin-bottom: 5px;
+                padding: 2px 0;
+            }
+        }
+    }
 }
