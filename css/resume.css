@@ -9,7 +9,7 @@ h2 {
   padding: 0; }
 
 body {
-  font: 10px "Gudea", Helvetica, sans-serif;
+  font: 11px "Gudea", Helvetica, sans-serif;
   background-color: #dbdad7; }
   body .box, body .resume {
     background-color: #fff;
@@ -51,5 +51,9 @@ body {
         /* Firefox */
         column-count: 2;
         list-style-position: inside; }
+      body .resume .resume-block .resume-element--block {
+        padding: 3px 0; }
+        body .resume .resume-block .resume-element--block li {
+          margin-left: 20px; }
 
 /*# sourceMappingURL=resume.css.map */

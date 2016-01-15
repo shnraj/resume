@@ -13,7 +13,7 @@ $font-stack: 'Gudea', Helvetica, sans-serif;
 $background-color: #dbdad7;
 
 body {
-    font: 10px $font-stack;
+    font: 11px $font-stack;
     background-color: $background-color;
 
     .box {
@@ -79,6 +79,14 @@ body {
                     -moz-column-count: 2; /* Firefox */
                     column-count: 2;
                     list-style-position: inside;
+                }
+
+                &--block {
+                    padding: 3px 0;
+
+                    li {
+                        margin-left: 20px;
+                    }
                 }
             }
         }
