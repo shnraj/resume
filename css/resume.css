@@ -34,7 +34,22 @@ body {
       body .resume .resume-block__heading {
         border-bottom: 1px solid #000;
         font-size: 110%;
-        margin-bottom: 5px;
+        margin-bottom: 6px;
         padding: 2px 0; }
+      body .resume .resume-block .resume-element p {
+        display: inline; }
+      body .resume .resume-block .resume-element__title {
+        font-weight: 700; }
+      body .resume .resume-block .resume-element__subtitle {
+        font-style: italic; }
+      body .resume .resume-block .resume-element__dates {
+        float: right; }
+      body .resume .resume-block .resume-element--bulleted-list {
+        -webkit-column-count: 2;
+        /* Chrome, Safari, Opera */
+        -moz-column-count: 2;
+        /* Firefox */
+        column-count: 2;
+        list-style-position: inside; }
 
 /*# sourceMappingURL=resume.css.map */

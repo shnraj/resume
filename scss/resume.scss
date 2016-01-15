@@ -53,8 +53,33 @@ body {
             &__heading {
                 border-bottom: 1px solid #000;
                 font-size: 110%;
-                margin-bottom: 5px;
+                margin-bottom: 6px;
                 padding: 2px 0;
+            }
+
+            .resume-element {
+                p {
+                    display: inline;
+                }
+
+                &__title {
+                    font-weight: 700;
+                }
+
+                &__subtitle {
+                    font-style: italic;
+                }
+
+                &__dates {
+                    float: right;
+                }
+
+                &--bulleted-list {
+                    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+                    -moz-column-count: 2; /* Firefox */
+                    column-count: 2;
+                    list-style-position: inside;
+                }
             }
         }
     }
