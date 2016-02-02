@@ -1,0 +1,15 @@
+@import "resume";
+
+body {
+    .box {
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+
+    .resume {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+}
